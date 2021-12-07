@@ -30,6 +30,15 @@
 
 輸入Branch:^main$
 
+---
+
+## 建立自動化部屬文件
+在Github repositry中建立檔案：
+```
+steps:
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "[Your-Path]", "gs://[Your-Bucket-Name]"]
+```
+請置換路徑與bucket名稱，路徑請依照您的repositry目錄路徑
+
 之後點擊create 建立，接著嘗試修改Index.html 檔案內容，即可看到修改的變化。
-
-
