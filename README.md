@@ -8,7 +8,6 @@
 ## 建立Storage Bucket
 
 將您的網站內容作為文件上傳到 Cloud Storage，您可以透過Bucket託管您的靜態網站。首先，您需要創建一個Bucket。前往 Cloud Console 的存儲部分並輸入您的域名，例如 (www.example.com)
-
 並創建Bucket：
 輸入bucket名稱與選擇區域
 ![](https://i.imgur.com/5Wuamrw.png)
