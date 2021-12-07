@@ -16,7 +16,19 @@
 ![](https://i.imgur.com/TSS3UIN.png)
 編輯網站設定，輸入主畫面檔案後保存
 ![](https://i.imgur.com/zkZXagP.png)
-![](https://i.imgur.com/cvoqyQZ.png)
 
+---
+
+![](https://i.imgur.com/cvoqyQZ.png)
+## 建立Cloud Build Trigger
+進到Cloud Build Trigger頁面後選擇Create trigger
+![](https://i.imgur.com/t4x60lz.png)
+輸入名稱並選擇觸發方式，如果您Fork本範例專案，請選擇“Push to a branch”
+![](https://i.imgur.com/teMXo6E.png)
+連結github repositry
+![](https://i.imgur.com/MTSYSQH.png)
+
+輸入Branch:^main$
+之後點擊create 建立，接著嘗試修改Index.html 檔案內容，即可看到修改的變化。
 
 
